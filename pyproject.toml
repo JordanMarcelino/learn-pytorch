@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pyt"
+version = "0.1.0"
+description = "Learn PyTorch"
+authors = ["JordanMarcelino <jhordan.marcelino@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.2.1"
+torchvision = "^0.17.1"
+torchaudio = "^2.2.1"
+jupyter = "^1.0.0"
+pandas = "^2.2.1"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
