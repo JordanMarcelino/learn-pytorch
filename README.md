@@ -7,3 +7,9 @@
 -   Learn how to create Binary Classification model and Multiclass Classification with nn.Linear (Dense layer) and nn.ReLU (Activation function), and calculate the accuracy using torchmetrics
 
 ## 2 - Deep Learning
+
+-   Learn how to load image dataset using torchvision.dataset
+-   Learn how to create DataLoader for generating training and testing data
+-   Learn how to create Multiclass Image Classification model with Convolutional Neural Network
+
+## 3 - Datasets

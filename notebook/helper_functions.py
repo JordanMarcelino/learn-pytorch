@@ -5,6 +5,7 @@ If a function gets defined once and could be used over and over, it'll go in her
 """
 
 import os
+import random
 import zipfile
 from pathlib import Path
 
@@ -244,6 +245,10 @@ def set_seeds(seed: int = 42):
     Args:
         seed (int, optional): Random seed to set. Defaults to 42.
     """
+    # Set the seed for general python random operation
+    random.seed(42)
+    # Set the seed for numpy operations
+    np.random.seed(42)
     # Set the seed for general torch operations
     torch.manual_seed(seed)
     # Set the seed for CUDA torch operations (ones that happen on the GPU)
