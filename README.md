@@ -13,3 +13,8 @@
 -   Learn how to create Multiclass Image Classification model with Convolutional Neural Network
 
 ## 3 - Datasets
+
+-   Learn how to create custom dataset using torch.utils.data.Dataset
+-   Learn how to load image into dataset using ImageFolder
+-   Learn Image Augmentation with torchvision.transform
+-   Learn how to use pretrained model for transfer learning using torchvision.models
