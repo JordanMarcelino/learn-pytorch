@@ -18,3 +18,4 @@
 -   Learn how to load image into dataset using ImageFolder
 -   Learn Image Augmentation with torchvision.transform
 -   Learn how to use pretrained model for transfer learning using torchvision.models
+-   Learn how to replicate ViT model
